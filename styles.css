@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+
+
+body{
+	height:100%;
+	width:100%;
+	background-color: red;
+}
+
+h1 {
+	color:white;
+	font-family: cursive;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0 auto;
+	top:50%;
+	font-size: 48pt;
+}
+
+#button{
+	border-radius: 50px;
+	background-color: #fff;
+    border: solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 1% auto;
+    clear: left;
+}
+
+.outer {
+	background-color: red;
+}
+
+#header{
+	height: 100px;
+}
+
+#sidebar_l, #sidebar_r{
+	width: 100px;
+	height: 100%;
+	position:absolute;
+}
+
+#sidebar_r {
+	float: right;
+	right:0;
+}
+
+#sidebar_l {
+	float: left;
+	left:0;
+}
+
+#footer {
+    width:100%; height:200px;
+    bottom:-100px;
+}
+
+.dial {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: white;
+	/* position:relative;*/
+	background-color: #e2d8b3;
+	border:solid;                                                                                                                                                                                                                                                                                              
+	border-color: black;    
+	margin-top:2%;                                                                                                                                
+}
+
+#dial_r{
+	float:right;
+	margin-right:25%;
+
+}
+
+#dial_l{
+	float:left;
+	margin-left:25%;
+}
+
+.wrapper{
+
+	width:80%;
+	height: 80%;
+	margin: 0 auto;
+}
+
+.cell {
+	background-color: #e2d8b3;
+	float:left;
+	border-width: 1px;
+	border-color: #a59b77;
+	border-style: solid;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
